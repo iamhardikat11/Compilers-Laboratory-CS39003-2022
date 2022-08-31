@@ -1,10 +1,11 @@
-output.txt: a.out ass3_20CS30023_20CS30047_test.c
-	./a.out < ass3_20CS30023_20CS30047_test.c > output.txt
-a.out: lex.yy.c ass3_20CS30023_20CS30047.c
-	cc lex.yy.c ass3_20CS30023_20CS30047.c -lfl
+ass3_20CS30023_20CS30047_output.txt: ass3_20CS30023_20CS30047 ass3_20CS30023_20CS30047_test.c
+	./ass3_20CS30023_20CS30047 < ass3_20CS30023_20CS30047_test.c > ass3_20CS30023_20CS30047_output.txt
+
+ass3_20CS30023_20CS30047: lex.yy.c
+	gcc lex.yy.c -lfl -o ass3_20CS30023_20CS30047
+
 lex.yy.c: ass3_20CS30023_20CS30047.l
-	flex ass3_20CS30023_20CS30047.l
-ass3_20CS30023_20CS30047.c:
-	touch ass3_20CS30023_20CS30047.c
+	flex ass3_20CS30023_20CS30047.l ass3_20CS30023_20CS30047.c
+
 clean:
-	rm a.out output.txt lex.yy.c
+	rm ass3_20CS30023_20CS30047 lex.yy.c ass3_20CS30023_20CS30047_output.txt
