@@ -1,7 +1,10 @@
 /*
-*   // Nisarg Upadhyaya - 19cs30031
-*   // Animesh Jha - 19cs10070
+*   Compilers Labortary
+*   Compilers Assignment 3
+*   Hardik Pravin Soni - 20CS30023
+*   Saurabh Jaiswal - 20CS30047
 */
+#include <stdio.h>
 
 #define HELLO 1234
 
@@ -12,7 +15,6 @@ inline int foo(int *restrict p, ...) {
     volatile int d;
     return a;
 }
-
 struct mystruct_ {
     _Bool b;
     _Complex c;
@@ -73,7 +75,6 @@ void main() {
         default:
             break;
     }
-
     do {
         s << 2;
         s >> 2;
@@ -84,6 +85,5 @@ void main() {
         some_label:
             continue;
     } while(n2 != -1 || !n1);
-
     return;
 }

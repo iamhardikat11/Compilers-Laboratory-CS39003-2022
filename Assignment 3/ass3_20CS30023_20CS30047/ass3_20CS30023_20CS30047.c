@@ -21,33 +21,33 @@
 
 int main()
 {
-    // char yytext[1000];
     int token;
     int lineno = 1;
     while (token = yylex())
     {
         if(token == keyword)
-            printf("<Line : %d, KEYWORD, Token : %d, %s>\n", lineno++, token, yytext);
+            printf("<Line : %d, C-KEYWORD          , Token : %d, %s>\n", lineno++, token, yytext);
         else if(token == identifier)
-            printf("<Line : %d, IDENTIFIER, Token : %d, %s>\n", lineno++, token, yytext);
+            printf("<Line : %d, Valid IDENTIFIER   , Token : %d, %s>\n", lineno++, token, yytext);
         else if(token == string_literal)
-            printf("<Line : %d, STRING, Token : %d, %s>\n", lineno++, token, yytext);
+            printf("<Line : %d, STRING  Literal    , Token : %d, %s>\n", lineno++, token, yytext);
         else if(token == floating_constant)
-            printf("<Line : %d, FLOAT, Token : %d, %s>\n", lineno++, token, yytext);
+            printf("<Line : %d,   FLOAT            , Token : %d, %s>\n", lineno++, token, yytext);
         else if(token == character_constant)
-            printf("<Line : %d, CHARACTER, Token : %d, %s>\n", lineno++, token, yytext);
+            printf("<Line : %d, CHARACTER          , Token : %d, %s>\n", lineno++, token, yytext);
         else if(token == enumeration_constant)
-            printf("<Line : %d, ENUM, Token : %d, %s>\n", lineno++, token, yytext);
+            printf("<Line : %d, ENUM               , Token : %d, %s>\n", lineno++, token, yytext);
         else if(token == integer_constant)
-            printf("<Line : %d, INTEGER, Token : %d, %s>\n", lineno++, token, yytext);
+            printf("<Line : %d, INTEGER            , Token : %d, %s>\n", lineno++, token, yytext);
         else if(token == punctuator)
-            printf("<Line : %d, PUNCTUATOR, Token : %d, %s>\n", lineno++, token, yytext);
+            printf("<Line : %d, PUNCTUATOR         , Token : %d, %s>\n", lineno++, token, yytext);
         else if(token == single_line_comment)
-            printf("<Line : %d, SINGLE LINE COMMENT, Token : %d, %s>\n", lineno++, token, yytext);
+            printf("<Line : %d, Single Comment     , Token : %d, %s>\n", lineno++, token, yytext);
         else if(token == multi_line_comment)
-            printf("<Line : %d, MULT-LINE COMMENT, Token : %d, %s>\n", lineno++, token, yytext);
+            printf("<Line : %d, MULTI-LINE COMMENT , Token : %d, %s>\n", lineno++, token, yytext);
         else if(token == invalid_token)
-            printf("<Line : %d, INVALID TOKEN, Token : %d, %s>\n", lineno++, token, yytext);;    
+            printf("<Line : %d, INVALID TOKEN      , Token : %d, %s>\n", lineno++, token, yytext);;    
     }
     return 0;
 }
+
