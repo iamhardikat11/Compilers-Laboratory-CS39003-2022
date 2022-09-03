@@ -1,46 +1,47 @@
 %{
-    #define KEYWORD                 10
-    #define IDENTIFIER              11
-    #define INTEGER_CONSTANT        12
-    #define FLOATING_CONSTANT       13
-    #define ENUMERATION_CONSTANT    14
-    #define CHARACTER_CONSTANT      15
-    #define STRING_LITERAL          16
-    #define PUNCTUATOR              17
-    #define MULTI_LINE_COMMENT      18
-    #define SINGLE_LINE_COMMENT     19
-    #define INVALID_TOKEN           20
+    #define KEYWORD                 101
+    #define IDENTIFIER              102
+    #define STRING_LITERAL          103
+    #define FLOATING_CONSTANT       104
+    #define CHARACTER_CONSTANT      105
+    #define ENUMERATION_CONSTANT    106
+    #define INTEGER_CONSTANT        107
+    #define PUNCTUATOR              108
+    #define single_line_comment     109
+    #define multiple_line_comment   110
+    #define invalid_token           111
 %}
 
-%x MULTI_LINE_COMMENT_BODY
-%x SINGLE_LINE_COMMENT_BODY
+%x   body_of_single_line_comment
+%x   body_of_multiple_line_comment
 
 KEYWORD                 "auto"|"break"|"case"|"char"|"const"|"continue"|"default"|"do"|"double"|"else"|"enum"|"extern"|"float"|"for"|"goto"|"if"|"inline"|"int"|"long"|"register"|"restrict"|"return"|"short"|"signed"|"sizeof"|"static"|"struct"|"switch"|"typedef"|"union"|"unsigned"|"void"|"volatile"|"while"|"_Bool"|"_Complex"|"_Imaginary"
-ESCAPE_SEQUENCE         "\\\'"|"\\\""|"\\?"|"\\\\"|"\\a"|"\\b"|"\\f"|"\\n"|"\\r"|"\\t"|"\\v"
+escape_SEQUENCE         "\\\'"|"\\\""|"\\?"|"\\\\"|"\\a"|"\\b"|"\\f"|"\\n"|"\\r"|"\\t"|"\\v"
 PUNCTUATOR              "["|"++"|"/"|"?"|"="|","|"]"|"("|"{"|"}"|"."|"->"|"*"|"+"|"-"|"~"|"!"|"%"|"<<"|">>"|"<"|">"|"<="|">="|":"|";"|"..."|"*="|"/="|"%="|"+="|"-="|"<<="|"#"|"--"|")"|"&"|"=="|"^"|"|"|"&&"|">>="|"!="|"&="|"^="|"||"|"|"
 
 IDENTIFIER              [A-Za-z_][A-Za-z0-9_]*
 
 DIGIT                   [0-9]
 DIGIT_SEQUENCE          {DIGIT}+
-NONZERO_DIGIT           [1-9]
-INTEGER_CONSTANT        {NONZERO_DIGIT}{DIGIT}*|"0"
+NON_ZERO_DIGIT          [1-9]
+INTEGER_CONSTANT        {NON_ZERO_DIGIT}{DIGIT}*|"0"
 
-EXPONENT_PART           [eE]([+-]?){DIGIT_SEQUENCE}
-FRACTIONAL_CONSTANT     {DIGIT_SEQUENCE}?\.{DIGIT_SEQUENCE}|{DIGIT_SEQUENCE}\.
-FLOATING_CONSTANT       {FRACTIONAL_CONSTANT}({EXPONENT_PART}?)|{DIGIT_SEQUENCE}{EXPONENT_PART}
+exponent                [eE]([-+]?){DIGIT_SEQUENCE}
+fraction_constant       {DIGIT_SEQUENCE}?\.{DIGIT_SEQUENCE}|{DIGIT_SEQUENCE}\.
+FLOATING_CONSTANT       {fraction_constant}({exponent}?)|{DIGIT_SEQUENCE}{exponent}
 
 ENUMERATION_CONSTANT    {IDENTIFIER}
 
-C_CHAR                  [^\'\n\\]|{ESCAPE_SEQUENCE}
-C_CHAR_SEQUENCE         {C_CHAR}+
-CHARACTER_CONSTANT      \'{C_CHAR_SEQUENCE}\'
+s_char                  [^\"\n\\]|{escape_SEQUENCE}
+s_char_SEQUENCE         {s_char}+
+STRING_LITERAL          \"({s_char_SEQUENCE}?)\"
 
-S_CHAR                  [^\"\n\\]|{ESCAPE_SEQUENCE}
-S_CHAR_SEQUENCE         {S_CHAR}+
-STRING_LITERAL          \"({S_CHAR_SEQUENCE}?)\"
+c_char                  [^\'\n\\]|{escape_SEQUENCE}
+c_char_SEQUENCE         {c_char}+
+CHARACTER_CONSTANT      \'{c_char_SEQUENCE}\'
 
-WHITESPACE              [ \n\t]
+
+whitespace              [ \t\n]
 
 %%
 
@@ -52,16 +53,17 @@ WHITESPACE              [ \n\t]
 {STRING_LITERAL}                { return STRING_LITERAL; }
 {PUNCTUATOR}                    { return PUNCTUATOR; }
 
-"/*"                            { BEGIN(MULTI_LINE_COMMENT_BODY); }
-<MULTI_LINE_COMMENT_BODY>"*/"   { BEGIN(INITIAL); return MULTI_LINE_COMMENT; }
-<MULTI_LINE_COMMENT_BODY>.      { }
-<MULTI_LINE_COMMENT_BODY>"\n"   { }
 
-"//"                            { BEGIN(SINGLE_LINE_COMMENT_BODY); }
-<SINGLE_LINE_COMMENT_BODY>"\n"  { BEGIN(INITIAL); return SINGLE_LINE_COMMENT; }
-<SINGLE_LINE_COMMENT_BODY>.     { }
+"/*"                                    { BEGIN(body_of_multiple_line_comment); }
+<body_of_multiple_line_comment>"*/"     { BEGIN(INITIAL); return multiple_line_comment; }
+<body_of_multiple_line_comment>.        { }
+<body_of_multiple_line_comment>"\n"     { }
 
-{WHITESPACE}                    { }
-.                               { return INVALID_TOKEN; }
+"//"                                    { BEGIN(body_of_single_line_comment); }
+<body_of_single_line_comment>"\n"       { BEGIN(INITIAL); return single_line_comment; }
+<body_of_single_line_comment>.          { }
+
+{whitespace}          { }
+.                     { return invalid_token; }
 
 %%

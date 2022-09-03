@@ -1,40 +1,47 @@
 #include <stdio.h>
 
-int main() {
+#ifndef _DEFI
+#define _DEFI
+    #define keyword                 101
+    #define identifier              102
+    #define string_literal          103
+    #define floating_constant       104
+    #define character_constant      105
+    #define enumeration_constant    106
+    #define integer_constant        107
+    #define punctuator              108
+    #define single_line_comment     109
+    #define multi_line_comment      110
+    #define invalid_token           111
+#endif
+
+int main()
+{
     int token;
-    while(token = yylex()) {
-        switch(token) {
-            case KEYWORD: 
-                printf("<KEYWORD, %d, %s>\n", token, yytext); 
-                break;
-            case IDENTIFIER: 
-                printf("<IDENTIFIER, %d, %s>\n", token, yytext); 
-                break;
-            case INTEGER_CONSTANT: 
-                printf("<INTEGER_CONSTANT, %d, %s>\n", token, yytext); 
-                break;
-            case FLOATING_CONSTANT: 
-                printf("<FLOAT_CONSTANT, %d, %s>\n", token, yytext); 
-                break;
-            case CHARACTER_CONSTANT: 
-                printf("<CHARACTER_CONSTANT, %d, %s>\n", token, yytext); 
-                break;
-            case STRING_LITERAL: 
-                printf("<STRING_LITERAL, %d, %s>\n", token, yytext); 
-                break;
-            case PUNCTUATOR: 
-                printf("<PUNCTUATOR, %d, %s>\n", token, yytext); 
-                break;
-            case MULTI_LINE_COMMENT: 
-                printf("<MULTI_LINE_COMMENT, %d>\n", token);  
-                break;
-            case SINGLE_LINE_COMMENT: 
-                printf("<SINGLE_LINE_COMMENT, %d>\n", token); 
-                break;
-            default:
-                printf("<INVALID_TOKEN, %d, %s>\n", token, yytext);
-                break;
-        }
+    while (token = yylex())
+    {
+        if(token == keyword)
+            printf("<Line: %d, KEYWORD, Token : %d, %s>", yyline, token, yytext);
+        else if(token == identifier)
+            printf("<Line: %d, IDENTIFIER, Token : %d, %s>", yyline, token, yytext);
+        else if(token == string_literal)
+            printf("<Line: %d, STRING, Token : %d, %s>", yyline, token, yytext);
+        else if(token == floating_constant)
+            printf("<Line: %d, FLOAT, Token : %d, %s>", yyline, token, yytext);
+        else if(token == character_constant)
+            printf("<Line: %d, CHARACTER, Token : %d, %s>", yyline, token, yytext);
+        else if(token == enumeration_constant)
+            printf("<Line: %d, ENUM, Token : %d, %s>", yyline, token, yytext);
+        else if(token == integer_constant)
+            printf("<Line: %d, INTEGER, Token : %d, %s>", yyline, token, yytext);
+        else if(token == punctuator)
+            printf("<Line: %d, PUNCTUATOR, Token : %d, %s>", yyline, token, yytext);
+        else if(token == single_line_comment)
+            printf("<Line: %d, SINGLE LINE COMMENT, Token : %d, %s>", yyline, token, yytext);
+        else if(token == multi_line_comment)
+            printf("<Line: %d, MULT-LINE COMMENT, Token : %d, %s>", yyline, token, yytext);
+        else if(token == invalid_token)
+            printf("<Line: %d, INVALID TOKEN, Token : %d, %s>", yyline, token, yytext);;    
     }
     return 0;
 }
