@@ -22,6 +22,7 @@
     #define single_line_comment     109
     #define multi_line_comment      110
     #define invalid_token           111
+    int yylineno;
     char *yytext;
 #endif
 

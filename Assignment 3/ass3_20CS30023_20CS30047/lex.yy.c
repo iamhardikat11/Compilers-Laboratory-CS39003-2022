@@ -2044,7 +2044,6 @@ void yyfree (void * ptr )
 #ifndef _DEFI
 #define _DEFI
     int yylex();
-    
     #define keyword                 101
     #define identifier              102
     #define string_literal          103
@@ -2056,9 +2055,10 @@ void yyfree (void * ptr )
     #define single_line_comment     109
     #define multi_line_comment      110
     #define invalid_token           111
+    int yylineno;
     char *yytext;
 #endif
-extern int yylineno = 1;
+
 
 int main()
 {
