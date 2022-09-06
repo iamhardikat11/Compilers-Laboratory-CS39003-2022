@@ -1,3 +1,4 @@
+%option yylineno
 %{
     #define keyword                 101
     #define identifier              102
@@ -41,7 +42,7 @@ c_char                  [^\'\n\\]|{escape_sequence}
 c_char_sequence         {c_char}+
 char_constant           \'{c_char_sequence}\'
 
-whitespace              [ \t\n]
+whitespace              [ \t\n]     
 
 %%
 
