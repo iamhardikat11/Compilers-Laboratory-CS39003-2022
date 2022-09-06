@@ -1,12 +1,12 @@
 %{
-    #define KEYWORD                 101
-    #define IDENTIFIER              102
-    #define STRING_LITERAL          103
-    #define FLOATING_CONSTANT       104
-    #define CHARACTER_CONSTANT      105
-    #define ENUMERATION_CONSTANT    106
-    #define INTEGER_CONSTANT        107
-    #define PUNCTUATOR              108
+    #define keyword                 101
+    #define identifier              102
+    #define string_literal          103
+    #define floating_constant       104
+    #define char_constant           105
+    #define enumeration_constant    106
+    #define integer_constant        107
+    #define punctuator              108
     #define single_line_comment     109
     #define multiple_line_comment   110
     #define invalid_token           111
@@ -15,43 +15,43 @@
 %x   body_of_single_line_comment
 %x   body_of_multiple_line_comment
 
-KEYWORD                 "auto"|"break"|"case"|"char"|"const"|"continue"|"default"|"do"|"double"|"else"|"enum"|"extern"|"float"|"for"|"goto"|"if"|"inline"|"int"|"long"|"register"|"restrict"|"return"|"short"|"signed"|"sizeof"|"static"|"struct"|"switch"|"typedef"|"union"|"unsigned"|"void"|"volatile"|"while"|"_Bool"|"_Complex"|"_Imaginary"
-escape_SEQUENCE         "\\\'"|"\\\""|"\\?"|"\\\\"|"\\a"|"\\b"|"\\f"|"\\n"|"\\r"|"\\t"|"\\v"
-PUNCTUATOR              "["|"++"|"/"|"?"|"="|","|"]"|"("|"{"|"}"|"."|"->"|"*"|"+"|"-"|"~"|"!"|"%"|"<<"|">>"|"<"|">"|"<="|">="|":"|";"|"..."|"*="|"/="|"%="|"+="|"-="|"<<="|"#"|"--"|")"|"&"|"=="|"^"|"|"|"&&"|">>="|"!="|"&="|"^="|"||"|"|"
+keyword                "auto"|"break"|"case"|"char"|"const"|"continue"|"default"|"do"|"double"|"else"|"enum"|"extern"|"float"|"for"|"goto"|"if"|"inline"|"int"|"long"|"register"|"restrict"|"return"|"short"|"signed"|"sizeof"|"static"|"struct"|"switch"|"typedef"|"union"|"unsigned"|"void"|"volatile"|"while"|"_Bool"|"_Complex"|"_Imaginary"
+escape_sequence        "\\\'"|"\\\""|"\\?"|"\\\\"|"\\a"|"\\b"|"\\f"|"\\n"|"\\r"|"\\t"|"\\v"
+punctuator             "["|"++"|"/"|"?"|"="|","|"]"|"("|"{"|"}"|"."|"->"|"*"|"+"|"-"|"~"|"!"|"%"|"<<"|">>"|"<"|">"|"<="|">="|":"|";"|"..."|"*="|"/="|"%="|"+="|"-="|"<<="|"#"|"--"|")"|"&"|"=="|"^"|"|"|"&&"|">>="|"!="|"&="|"^="|"||"|"|"
 
-IDENTIFIER              [A-Za-z_][A-Za-z0-9_]*
+identifier             [A-Za-z_][A-Za-z0-9_]*
 
-DIGIT                   [0-9]
-DIGIT_SEQUENCE          {DIGIT}+
-NON_ZERO_DIGIT          [1-9]
-INTEGER_CONSTANT        {NON_ZERO_DIGIT}{DIGIT}*|"0"
+digit                  [0-9]
+digit_sequence         {digit}+
+NON_ZERO_digit         [1-9]
+integer_constant       {NON_ZERO_digit}{digit}*|"0"
+sign                   [+-]?
 
-exponent                [eE]([-+]?){DIGIT_SEQUENCE}
-fraction_constant       {DIGIT_SEQUENCE}?\.{DIGIT_SEQUENCE}|{DIGIT_SEQUENCE}\.
-FLOATING_CONSTANT       {fraction_constant}({exponent}?)|{DIGIT_SEQUENCE}{exponent}
+exponent               [eE]{sign}{digit_sequence}
+fraction_constant      {digit_sequence}?\.{digit_sequence}|{digit_sequence}\.
+floating_constant      {fraction_constant}({exponent}?)|{digit_sequence}{exponent}
 
-ENUMERATION_CONSTANT    {IDENTIFIER}
+enumeration_constant   {identifier}
 
-s_char                  [^\"\n\\]|{escape_SEQUENCE}
-s_char_SEQUENCE         {s_char}+
-STRING_LITERAL          \"({s_char_SEQUENCE}?)\"
+s_char                  [^\"\n\\]|{escape_sequence}
+s_char_sequence         {s_char}+
+string_literal          \"({s_char_sequence}?)\"
 
-c_char                  [^\'\n\\]|{escape_SEQUENCE}
-c_char_SEQUENCE         {c_char}+
-CHARACTER_CONSTANT      \'{c_char_SEQUENCE}\'
-
+c_char                  [^\'\n\\]|{escape_sequence}
+c_char_sequence         {c_char}+
+char_constant           \'{c_char_sequence}\'
 
 whitespace              [ \t\n]
 
 %%
 
-{KEYWORD}                       { return KEYWORD; }
-{IDENTIFIER}                    { return IDENTIFIER; }
-{INTEGER_CONSTANT}              { return INTEGER_CONSTANT; }
-{FLOATING_CONSTANT}             { return FLOATING_CONSTANT; }
-{CHARACTER_CONSTANT}            { return CHARACTER_CONSTANT; }
-{STRING_LITERAL}                { return STRING_LITERAL; }
-{PUNCTUATOR}                    { return PUNCTUATOR; }
+{keyword}                       { return keyword; }
+{identifier}                    { return identifier; }
+{integer_constant}              { return integer_constant; }
+{floating_constant}             { return floating_constant; }
+{char_constant}                 { return char_constant; }
+{string_literal}                { return string_literal; }
+{punctuator}                    { return punctuator; }
 
 
 "/*"                                    { BEGIN(body_of_multiple_line_comment); }

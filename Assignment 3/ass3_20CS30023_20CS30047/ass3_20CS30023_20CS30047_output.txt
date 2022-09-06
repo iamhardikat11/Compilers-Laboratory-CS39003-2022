@@ -1,0 +1,631 @@
+<Line : 1, MULTI-LINE COMMENT , Token : 110, */>
+<Line : 2, PUNCTUATOR         , Token : 108, #>
+<Line : 3, Valid IDENTIFIER   , Token : 102, include>
+<Line : 4, PUNCTUATOR         , Token : 108, <>
+<Line : 5, Valid IDENTIFIER   , Token : 102, stdio>
+<Line : 6, PUNCTUATOR         , Token : 108, .>
+<Line : 7, Valid IDENTIFIER   , Token : 102, h>
+<Line : 8, PUNCTUATOR         , Token : 108, >>
+<Line : 9, PUNCTUATOR         , Token : 108, #>
+<Line : 10, Valid IDENTIFIER   , Token : 102, include>
+<Line : 11, PUNCTUATOR         , Token : 108, <>
+<Line : 12, Valid IDENTIFIER   , Token : 102, stdlib>
+<Line : 13, PUNCTUATOR         , Token : 108, .>
+<Line : 14, Valid IDENTIFIER   , Token : 102, h>
+<Line : 15, PUNCTUATOR         , Token : 108, >>
+<Line : 16, PUNCTUATOR         , Token : 108, #>
+<Line : 17, Valid IDENTIFIER   , Token : 102, include>
+<Line : 18, PUNCTUATOR         , Token : 108, <>
+<Line : 19, Valid IDENTIFIER   , Token : 102, conio>
+<Line : 20, PUNCTUATOR         , Token : 108, .>
+<Line : 21, Valid IDENTIFIER   , Token : 102, h>
+<Line : 22, PUNCTUATOR         , Token : 108, >>
+<Line : 23, PUNCTUATOR         , Token : 108, #>
+<Line : 24, Valid IDENTIFIER   , Token : 102, define>
+<Line : 25, Valid IDENTIFIER   , Token : 102, NUMBER>
+<Line : 26, INTEGER            , Token : 107, 1234>
+<Line : 27, PUNCTUATOR         , Token : 108, #>
+<Line : 28, Valid IDENTIFIER   , Token : 102, define>
+<Line : 29, Valid IDENTIFIER   , Token : 102, MOD>
+<Line : 30,   FLOAT            , Token : 104, 1e9>
+<Line : 31, PUNCTUATOR         , Token : 108, +>
+<Line : 32, INTEGER            , Token : 107, 7>
+<Line : 33, PUNCTUATOR         , Token : 108, #>
+<Line : 34, Valid IDENTIFIER   , Token : 102, define>
+<Line : 35, Valid IDENTIFIER   , Token : 102, forn>
+<Line : 36, PUNCTUATOR         , Token : 108, (>
+<Line : 37, Valid IDENTIFIER   , Token : 102, i>
+<Line : 38, PUNCTUATOR         , Token : 108, ,>
+<Line : 39, Valid IDENTIFIER   , Token : 102, e>
+<Line : 40, PUNCTUATOR         , Token : 108, )>
+<Line : 41, C-KEYWORD          , Token : 101, for>
+<Line : 42, PUNCTUATOR         , Token : 108, (>
+<Line : 43, C-KEYWORD          , Token : 101, int>
+<Line : 44, Valid IDENTIFIER   , Token : 102, i>
+<Line : 45, PUNCTUATOR         , Token : 108, =>
+<Line : 46, INTEGER            , Token : 107, 0>
+<Line : 47, PUNCTUATOR         , Token : 108, ;>
+<Line : 48, Valid IDENTIFIER   , Token : 102, i>
+<Line : 49, PUNCTUATOR         , Token : 108, <>
+<Line : 50, Valid IDENTIFIER   , Token : 102, e>
+<Line : 51, PUNCTUATOR         , Token : 108, ;>
+<Line : 52, Valid IDENTIFIER   , Token : 102, i>
+<Line : 53, PUNCTUATOR         , Token : 108, ++>
+<Line : 54, PUNCTUATOR         , Token : 108, )>
+<Line : 55, PUNCTUATOR         , Token : 108, #>
+<Line : 56, Valid IDENTIFIER   , Token : 102, define>
+<Line : 57, Valid IDENTIFIER   , Token : 102, forsn>
+<Line : 58, PUNCTUATOR         , Token : 108, (>
+<Line : 59, Valid IDENTIFIER   , Token : 102, i>
+<Line : 60, PUNCTUATOR         , Token : 108, ,>
+<Line : 61, Valid IDENTIFIER   , Token : 102, s>
+<Line : 62, PUNCTUATOR         , Token : 108, ,>
+<Line : 63, Valid IDENTIFIER   , Token : 102, e>
+<Line : 64, PUNCTUATOR         , Token : 108, )>
+<Line : 65, C-KEYWORD          , Token : 101, for>
+<Line : 66, PUNCTUATOR         , Token : 108, (>
+<Line : 67, C-KEYWORD          , Token : 101, int>
+<Line : 68, Valid IDENTIFIER   , Token : 102, i>
+<Line : 69, PUNCTUATOR         , Token : 108, =>
+<Line : 70, Valid IDENTIFIER   , Token : 102, s>
+<Line : 71, PUNCTUATOR         , Token : 108, ;>
+<Line : 72, Valid IDENTIFIER   , Token : 102, i>
+<Line : 73, PUNCTUATOR         , Token : 108, <>
+<Line : 74, Valid IDENTIFIER   , Token : 102, e>
+<Line : 75, PUNCTUATOR         , Token : 108, ;>
+<Line : 76, Valid IDENTIFIER   , Token : 102, i>
+<Line : 77, PUNCTUATOR         , Token : 108, ++>
+<Line : 78, PUNCTUATOR         , Token : 108, )>
+<Line : 79, PUNCTUATOR         , Token : 108, #>
+<Line : 80, Valid IDENTIFIER   , Token : 102, define>
+<Line : 81, Valid IDENTIFIER   , Token : 102, INF>
+<Line : 82,   FLOAT            , Token : 104, 2e18>
+<Line : 83, PUNCTUATOR         , Token : 108, #>
+<Line : 84, Valid IDENTIFIER   , Token : 102, define>
+<Line : 85, Valid IDENTIFIER   , Token : 102, max>
+<Line : 86, PUNCTUATOR         , Token : 108, (>
+<Line : 87, Valid IDENTIFIER   , Token : 102, a>
+<Line : 88, PUNCTUATOR         , Token : 108, ,>
+<Line : 89, Valid IDENTIFIER   , Token : 102, b>
+<Line : 90, PUNCTUATOR         , Token : 108, )>
+<Line : 91, Valid IDENTIFIER   , Token : 102, a>
+<Line : 92, PUNCTUATOR         , Token : 108, >>
+<Line : 93, Valid IDENTIFIER   , Token : 102, b>
+<Line : 94, PUNCTUATOR         , Token : 108, ?>
+<Line : 95, Valid IDENTIFIER   , Token : 102, a>
+<Line : 96, PUNCTUATOR         , Token : 108, :>
+<Line : 97, Valid IDENTIFIER   , Token : 102, b>
+<Line : 98, PUNCTUATOR         , Token : 108, #>
+<Line : 99, Valid IDENTIFIER   , Token : 102, define>
+<Line : 100, Valid IDENTIFIER   , Token : 102, min>
+<Line : 101, PUNCTUATOR         , Token : 108, (>
+<Line : 102, Valid IDENTIFIER   , Token : 102, a>
+<Line : 103, PUNCTUATOR         , Token : 108, ,>
+<Line : 104, Valid IDENTIFIER   , Token : 102, b>
+<Line : 105, PUNCTUATOR         , Token : 108, )>
+<Line : 106, Valid IDENTIFIER   , Token : 102, a>
+<Line : 107, PUNCTUATOR         , Token : 108, >>
+<Line : 108, Valid IDENTIFIER   , Token : 102, b>
+<Line : 109, PUNCTUATOR         , Token : 108, ?>
+<Line : 110, Valid IDENTIFIER   , Token : 102, b>
+<Line : 111, PUNCTUATOR         , Token : 108, :>
+<Line : 112, Valid IDENTIFIER   , Token : 102, a>
+<Line : 113, C-KEYWORD          , Token : 101, typedef>
+<Line : 114, C-KEYWORD          , Token : 101, long>
+<Line : 115, C-KEYWORD          , Token : 101, long>
+<Line : 116, Valid IDENTIFIER   , Token : 102, ll>
+<Line : 117, C-KEYWORD          , Token : 101, typedef>
+<Line : 118, C-KEYWORD          , Token : 101, long>
+<Line : 119, C-KEYWORD          , Token : 101, double>
+<Line : 120, Valid IDENTIFIER   , Token : 102, ld>
+<Line : 121, C-KEYWORD          , Token : 101, typedef>
+<Line : 122, C-KEYWORD          , Token : 101, struct>
+<Line : 123, Valid IDENTIFIER   , Token : 102, student>
+<Line : 124, PUNCTUATOR         , Token : 108, {>
+<Line : 125, C-KEYWORD          , Token : 101, char>
+<Line : 126, Valid IDENTIFIER   , Token : 102, name>
+<Line : 127, PUNCTUATOR         , Token : 108, [>
+<Line : 128, INTEGER            , Token : 107, 30>
+<Line : 129, PUNCTUATOR         , Token : 108, ]>
+<Line : 130, PUNCTUATOR         , Token : 108, ;>
+<Line : 131, C-KEYWORD          , Token : 101, unsigned>
+<Line : 132, C-KEYWORD          , Token : 101, int>
+<Line : 133, Valid IDENTIFIER   , Token : 102, rollNo>
+<Line : 134, PUNCTUATOR         , Token : 108, ;>
+<Line : 135, C-KEYWORD          , Token : 101, float>
+<Line : 136, Valid IDENTIFIER   , Token : 102, gpa>
+<Line : 137, PUNCTUATOR         , Token : 108, ;>
+<Line : 138, PUNCTUATOR         , Token : 108, }>
+<Line : 139, Valid IDENTIFIER   , Token : 102, stud>
+<Line : 140, PUNCTUATOR         , Token : 108, ;>
+<Line : 141, C-KEYWORD          , Token : 101, enum>
+<Line : 142, Valid IDENTIFIER   , Token : 102, week>
+<Line : 143, PUNCTUATOR         , Token : 108, {>
+<Line : 144, Valid IDENTIFIER   , Token : 102, Monday>
+<Line : 145, PUNCTUATOR         , Token : 108, ,>
+<Line : 146, Valid IDENTIFIER   , Token : 102, Tuesday>
+<Line : 147, PUNCTUATOR         , Token : 108, ,>
+<Line : 148, Valid IDENTIFIER   , Token : 102, Wednesday>
+<Line : 149, PUNCTUATOR         , Token : 108, ,>
+<Line : 150, Valid IDENTIFIER   , Token : 102, Thursday>
+<Line : 151, PUNCTUATOR         , Token : 108, ,>
+<Line : 152, Valid IDENTIFIER   , Token : 102, Friday>
+<Line : 153, PUNCTUATOR         , Token : 108, ,>
+<Line : 154, Valid IDENTIFIER   , Token : 102, Saturday>
+<Line : 155, PUNCTUATOR         , Token : 108, ,>
+<Line : 156, Valid IDENTIFIER   , Token : 102, Sunday>
+<Line : 157, PUNCTUATOR         , Token : 108, }>
+<Line : 158, PUNCTUATOR         , Token : 108, ;>
+<Line : 159, C-KEYWORD          , Token : 101, int>
+<Line : 160, Valid IDENTIFIER   , Token : 102, main>
+<Line : 161, PUNCTUATOR         , Token : 108, (>
+<Line : 162, PUNCTUATOR         , Token : 108, )>
+<Line : 163, PUNCTUATOR         , Token : 108, {>
+<Line : 164, C-KEYWORD          , Token : 101, double>
+<Line : 165, Valid IDENTIFIER   , Token : 102, d1>
+<Line : 166, PUNCTUATOR         , Token : 108, ,>
+<Line : 167, Valid IDENTIFIER   , Token : 102, d2>
+<Line : 168, PUNCTUATOR         , Token : 108, ,>
+<Line : 169, Valid IDENTIFIER   , Token : 102, d3>
+<Line : 170, PUNCTUATOR         , Token : 108, ;>
+<Line : 171, Valid IDENTIFIER   , Token : 102, d1>
+<Line : 172, PUNCTUATOR         , Token : 108, =>
+<Line : 173,   FLOAT            , Token : 104, 12345.>
+<Line : 174, PUNCTUATOR         , Token : 108, ;>
+<Line : 175, Valid IDENTIFIER   , Token : 102, d2>
+<Line : 176, PUNCTUATOR         , Token : 108, =>
+<Line : 177,   FLOAT            , Token : 104, .98765>
+<Line : 178, PUNCTUATOR         , Token : 108, ;>
+<Line : 179, Valid IDENTIFIER   , Token : 102, d3>
+<Line : 180, PUNCTUATOR         , Token : 108, =>
+<Line : 181,   FLOAT            , Token : 104, 12.2345E2>
+<Line : 182, PUNCTUATOR         , Token : 108, ;>
+<Line : 183, C-KEYWORD          , Token : 101, int>
+<Line : 184, Valid IDENTIFIER   , Token : 102, ch>
+<Line : 185, PUNCTUATOR         , Token : 108, =>
+<Line : 186, INTEGER            , Token : 107, 6>
+<Line : 187, PUNCTUATOR         , Token : 108, ;>
+<Line : 188, C-KEYWORD          , Token : 101, switch>
+<Line : 189, PUNCTUATOR         , Token : 108, (>
+<Line : 190, Valid IDENTIFIER   , Token : 102, ch>
+<Line : 191, PUNCTUATOR         , Token : 108, )>
+<Line : 192, PUNCTUATOR         , Token : 108, {>
+<Line : 193, C-KEYWORD          , Token : 101, case>
+<Line : 194, INTEGER            , Token : 107, 1>
+<Line : 195, PUNCTUATOR         , Token : 108, :>
+<Line : 196, Valid IDENTIFIER   , Token : 102, printf>
+<Line : 197, PUNCTUATOR         , Token : 108, (>
+<Line : 198, STRING  Literal    , Token : 103, "Number is %d\n.">
+<Line : 199, PUNCTUATOR         , Token : 108, ,>
+<Line : 200, INTEGER            , Token : 107, 1>
+<Line : 201, PUNCTUATOR         , Token : 108, )>
+<Line : 202, PUNCTUATOR         , Token : 108, ;>
+<Line : 203, C-KEYWORD          , Token : 101, break>
+<Line : 204, PUNCTUATOR         , Token : 108, ;>
+<Line : 205, C-KEYWORD          , Token : 101, case>
+<Line : 206, INTEGER            , Token : 107, 2>
+<Line : 207, PUNCTUATOR         , Token : 108, :>
+<Line : 208, Valid IDENTIFIER   , Token : 102, printf>
+<Line : 209, PUNCTUATOR         , Token : 108, (>
+<Line : 210, STRING  Literal    , Token : 103, "Number is %d\n.">
+<Line : 211, PUNCTUATOR         , Token : 108, ,>
+<Line : 212, INTEGER            , Token : 107, 2>
+<Line : 213, PUNCTUATOR         , Token : 108, )>
+<Line : 214, PUNCTUATOR         , Token : 108, ;>
+<Line : 215, C-KEYWORD          , Token : 101, break>
+<Line : 216, PUNCTUATOR         , Token : 108, ;>
+<Line : 217, C-KEYWORD          , Token : 101, case>
+<Line : 218, INTEGER            , Token : 107, 3>
+<Line : 219, PUNCTUATOR         , Token : 108, :>
+<Line : 220, Valid IDENTIFIER   , Token : 102, printf>
+<Line : 221, PUNCTUATOR         , Token : 108, (>
+<Line : 222, STRING  Literal    , Token : 103, "Number is %d\n.">
+<Line : 223, PUNCTUATOR         , Token : 108, ,>
+<Line : 224, INTEGER            , Token : 107, 3>
+<Line : 225, PUNCTUATOR         , Token : 108, )>
+<Line : 226, PUNCTUATOR         , Token : 108, ;>
+<Line : 227, C-KEYWORD          , Token : 101, break>
+<Line : 228, PUNCTUATOR         , Token : 108, ;>
+<Line : 229, C-KEYWORD          , Token : 101, case>
+<Line : 230, INTEGER            , Token : 107, 4>
+<Line : 231, PUNCTUATOR         , Token : 108, :>
+<Line : 232, Valid IDENTIFIER   , Token : 102, printf>
+<Line : 233, PUNCTUATOR         , Token : 108, (>
+<Line : 234, STRING  Literal    , Token : 103, "Number is %d\n.">
+<Line : 235, PUNCTUATOR         , Token : 108, ,>
+<Line : 236, INTEGER            , Token : 107, 4>
+<Line : 237, PUNCTUATOR         , Token : 108, )>
+<Line : 238, PUNCTUATOR         , Token : 108, ;>
+<Line : 239, C-KEYWORD          , Token : 101, break>
+<Line : 240, PUNCTUATOR         , Token : 108, ;>
+<Line : 241, C-KEYWORD          , Token : 101, case>
+<Line : 242, INTEGER            , Token : 107, 5>
+<Line : 243, PUNCTUATOR         , Token : 108, :>
+<Line : 244, Valid IDENTIFIER   , Token : 102, printf>
+<Line : 245, PUNCTUATOR         , Token : 108, (>
+<Line : 246, STRING  Literal    , Token : 103, "Number is %d\n.">
+<Line : 247, PUNCTUATOR         , Token : 108, ,>
+<Line : 248, INTEGER            , Token : 107, 5>
+<Line : 249, PUNCTUATOR         , Token : 108, )>
+<Line : 250, PUNCTUATOR         , Token : 108, ;>
+<Line : 251, C-KEYWORD          , Token : 101, break>
+<Line : 252, PUNCTUATOR         , Token : 108, ;>
+<Line : 253, C-KEYWORD          , Token : 101, case>
+<Line : 254, INTEGER            , Token : 107, 6>
+<Line : 255, PUNCTUATOR         , Token : 108, :>
+<Line : 256, Valid IDENTIFIER   , Token : 102, printf>
+<Line : 257, PUNCTUATOR         , Token : 108, (>
+<Line : 258, STRING  Literal    , Token : 103, "Number is %d\n.">
+<Line : 259, PUNCTUATOR         , Token : 108, ,>
+<Line : 260, INTEGER            , Token : 107, 6>
+<Line : 261, PUNCTUATOR         , Token : 108, )>
+<Line : 262, PUNCTUATOR         , Token : 108, ;>
+<Line : 263, C-KEYWORD          , Token : 101, break>
+<Line : 264, PUNCTUATOR         , Token : 108, ;>
+<Line : 265, C-KEYWORD          , Token : 101, default>
+<Line : 266, PUNCTUATOR         , Token : 108, :>
+<Line : 267, Valid IDENTIFIER   , Token : 102, printf>
+<Line : 268, PUNCTUATOR         , Token : 108, (>
+<Line : 269, STRING  Literal    , Token : 103, "None of the Integers Matched.\n">
+<Line : 270, PUNCTUATOR         , Token : 108, )>
+<Line : 271, PUNCTUATOR         , Token : 108, ;>
+<Line : 272, PUNCTUATOR         , Token : 108, }>
+<Line : 273, C-KEYWORD          , Token : 101, float>
+<Line : 274, Valid IDENTIFIER   , Token : 102, f1>
+<Line : 275, PUNCTUATOR         , Token : 108, ,>
+<Line : 276, Valid IDENTIFIER   , Token : 102, f2>
+<Line : 277, PUNCTUATOR         , Token : 108, ,>
+<Line : 278, Valid IDENTIFIER   , Token : 102, f3>
+<Line : 279, PUNCTUATOR         , Token : 108, ;>
+<Line : 280, Valid IDENTIFIER   , Token : 102, f1>
+<Line : 281, PUNCTUATOR         , Token : 108, =>
+<Line : 282,   FLOAT            , Token : 104, 1234.>
+<Line : 283, PUNCTUATOR         , Token : 108, ;>
+<Line : 284, Valid IDENTIFIER   , Token : 102, f2>
+<Line : 285, PUNCTUATOR         , Token : 108, =>
+<Line : 286,   FLOAT            , Token : 104, .2345>
+<Line : 287, Valid IDENTIFIER   , Token : 102, f3>
+<Line : 288, PUNCTUATOR         , Token : 108, =>
+<Line : 289,   FLOAT            , Token : 104, 123.23E4>
+<Line : 290, PUNCTUATOR         , Token : 108, ;>
+<Line : 291, C-KEYWORD          , Token : 101, const>
+<Line : 292, C-KEYWORD          , Token : 101, float>
+<Line : 293, Valid IDENTIFIER   , Token : 102, f4>
+<Line : 294, PUNCTUATOR         , Token : 108, =>
+<Line : 295,   FLOAT            , Token : 104, .234E-2>
+<Line : 296, PUNCTUATOR         , Token : 108, ;>
+<Line : 297, C-KEYWORD          , Token : 101, do>
+<Line : 298, PUNCTUATOR         , Token : 108, {>
+<Line : 299, C-KEYWORD          , Token : 101, int>
+<Line : 300, Valid IDENTIFIER   , Token : 102, k>
+<Line : 301, PUNCTUATOR         , Token : 108, =>
+<Line : 302, Valid IDENTIFIER   , Token : 102, f4>
+<Line : 303, PUNCTUATOR         , Token : 108, %>
+<Line : 304, INTEGER            , Token : 107, 10>
+<Line : 305, PUNCTUATOR         , Token : 108, ;>
+<Line : 306, Valid IDENTIFIER   , Token : 102, printf>
+<Line : 307, PUNCTUATOR         , Token : 108, (>
+<Line : 308, STRING  Literal    , Token : 103, "%f ">
+<Line : 309, PUNCTUATOR         , Token : 108, ,>
+<Line : 310, Valid IDENTIFIER   , Token : 102, f4>
+<Line : 311, PUNCTUATOR         , Token : 108, )>
+<Line : 312, PUNCTUATOR         , Token : 108, ;>
+<Line : 313, Valid IDENTIFIER   , Token : 102, f4>
+<Line : 314, PUNCTUATOR         , Token : 108, =>
+<Line : 315, Valid IDENTIFIER   , Token : 102, f4>
+<Line : 316, PUNCTUATOR         , Token : 108, />
+<Line : 317, INTEGER            , Token : 107, 10>
+<Line : 318, PUNCTUATOR         , Token : 108, ;>
+<Line : 319, PUNCTUATOR         , Token : 108, }>
+<Line : 320, C-KEYWORD          , Token : 101, while>
+<Line : 321, PUNCTUATOR         , Token : 108, (>
+<Line : 322, Valid IDENTIFIER   , Token : 102, f3>
+<Line : 323, PUNCTUATOR         , Token : 108, !=>
+<Line : 324,   FLOAT            , Token : 104, 0.0>
+<Line : 325, PUNCTUATOR         , Token : 108, )>
+<Line : 326, Valid IDENTIFIER   , Token : 102, printf>
+<Line : 327, PUNCTUATOR         , Token : 108, (>
+<Line : 328, STRING  Literal    , Token : 103, "\n">
+<Line : 329, PUNCTUATOR         , Token : 108, )>
+<Line : 330, PUNCTUATOR         , Token : 108, ;>
+<Line : 331, C-KEYWORD          , Token : 101, unsigned>
+<Line : 332, C-KEYWORD          , Token : 101, long>
+<Line : 333, Valid IDENTIFIER   , Token : 102, l1>
+<Line : 334, PUNCTUATOR         , Token : 108, =>
+<Line : 335, INTEGER            , Token : 107, 34832984032942>
+<Line : 336, PUNCTUATOR         , Token : 108, ;>
+<Line : 337, C-KEYWORD          , Token : 101, signed>
+<Line : 338, C-KEYWORD          , Token : 101, long>
+<Line : 339, Valid IDENTIFIER   , Token : 102, l2>
+<Line : 340, PUNCTUATOR         , Token : 108, =>
+<Line : 341, PUNCTUATOR         , Token : 108, ->
+<Line : 342, INTEGER            , Token : 107, 384823432089>
+<Line : 343, PUNCTUATOR         , Token : 108, ;>
+<Line : 344, C-KEYWORD          , Token : 101, signed>
+<Line : 345, C-KEYWORD          , Token : 101, short>
+<Line : 346, Valid IDENTIFIER   , Token : 102, s1>
+<Line : 347, PUNCTUATOR         , Token : 108, =>
+<Line : 348, INTEGER            , Token : 107, 234>
+<Line : 349, PUNCTUATOR         , Token : 108, ;>
+<Line : 350, C-KEYWORD          , Token : 101, signed>
+<Line : 351, C-KEYWORD          , Token : 101, short>
+<Line : 352, Valid IDENTIFIER   , Token : 102, s2>
+<Line : 353, PUNCTUATOR         , Token : 108, =>
+<Line : 354, PUNCTUATOR         , Token : 108, ->
+<Line : 355, INTEGER            , Token : 107, 32768>
+<Line : 356, PUNCTUATOR         , Token : 108, ;>
+<Line : 357, C-KEYWORD          , Token : 101, unsigned>
+<Line : 358, C-KEYWORD          , Token : 101, short>
+<Line : 359, Valid IDENTIFIER   , Token : 102, s3>
+<Line : 360, PUNCTUATOR         , Token : 108, =>
+<Line : 361, INTEGER            , Token : 107, 32767>
+<Line : 362, PUNCTUATOR         , Token : 108, ;>
+<Line : 363, C-KEYWORD          , Token : 101, signed>
+<Line : 364, C-KEYWORD          , Token : 101, long>
+<Line : 365, Valid IDENTIFIER   , Token : 102, s>
+<Line : 366, PUNCTUATOR         , Token : 108, =>
+<Line : 367, PUNCTUATOR         , Token : 108, ->
+<Line : 368, INTEGER            , Token : 107, 12443>
+<Line : 369, PUNCTUATOR         , Token : 108, ;>
+<Line : 370, C-KEYWORD          , Token : 101, char>
+<Line : 371, PUNCTUATOR         , Token : 108, *>
+<Line : 372, Valid IDENTIFIER   , Token : 102, ch1>
+<Line : 373, PUNCTUATOR         , Token : 108, ;>
+<Line : 374, Valid IDENTIFIER   , Token : 102, ch1>
+<Line : 375, PUNCTUATOR         , Token : 108, =>
+<Line : 376, PUNCTUATOR         , Token : 108, (>
+<Line : 377, C-KEYWORD          , Token : 101, char>
+<Line : 378, PUNCTUATOR         , Token : 108, *>
+<Line : 379, PUNCTUATOR         , Token : 108, )>
+<Line : 380, Valid IDENTIFIER   , Token : 102, malloc>
+<Line : 381, PUNCTUATOR         , Token : 108, (>
+<Line : 382, INTEGER            , Token : 107, 100>
+<Line : 383, PUNCTUATOR         , Token : 108, *>
+<Line : 384, C-KEYWORD          , Token : 101, sizeof>
+<Line : 385, PUNCTUATOR         , Token : 108, (>
+<Line : 386, C-KEYWORD          , Token : 101, char>
+<Line : 387, PUNCTUATOR         , Token : 108, )>
+<Line : 388, PUNCTUATOR         , Token : 108, )>
+<Line : 389, PUNCTUATOR         , Token : 108, ;>
+<Line : 390, C-KEYWORD          , Token : 101, char>
+<Line : 391, PUNCTUATOR         , Token : 108, *>
+<Line : 392, Valid IDENTIFIER   , Token : 102, h>
+<Line : 393, PUNCTUATOR         , Token : 108, =>
+<Line : 394, STRING  Literal    , Token : 103, "Hello  welcome to this program .\n">
+<Line : 395, PUNCTUATOR         , Token : 108, ;>
+<Line : 396, PUNCTUATOR         , Token : 108, *>
+<Line : 397, Valid IDENTIFIER   , Token : 102, ch1>
+<Line : 398, PUNCTUATOR         , Token : 108, =>
+<Line : 399, STRING  Literal    , Token : 103, "This is a String !! /* Hello This is our Team.*/ Not even multi-line comments will be read here.\n">
+<Line : 400, PUNCTUATOR         , Token : 108, ;>
+<Line : 401, C-KEYWORD          , Token : 101, do>
+<Line : 402, PUNCTUATOR         , Token : 108, {>
+<Line : 403, Valid IDENTIFIER   , Token : 102, s>
+<Line : 404, PUNCTUATOR         , Token : 108, <<>
+<Line : 405, INTEGER            , Token : 107, 2>
+<Line : 406, PUNCTUATOR         , Token : 108, ;>
+<Line : 407, Valid IDENTIFIER   , Token : 102, s>
+<Line : 408, PUNCTUATOR         , Token : 108, >>>
+<Line : 409, INTEGER            , Token : 107, 2>
+<Line : 410, PUNCTUATOR         , Token : 108, ;>
+<Line : 411, Valid IDENTIFIER   , Token : 102, s>
+<Line : 412, PUNCTUATOR         , Token : 108, =>
+<Line : 413, PUNCTUATOR         , Token : 108, ~>
+<Line : 414, Valid IDENTIFIER   , Token : 102, s>
+<Line : 415, PUNCTUATOR         , Token : 108, ;>
+<Line : 416, Valid IDENTIFIER   , Token : 102, s>
+<Line : 417, PUNCTUATOR         , Token : 108, =>
+<Line : 418, Valid IDENTIFIER   , Token : 102, s>
+<Line : 419, PUNCTUATOR         , Token : 108, |>
+<Line : 420, Valid IDENTIFIER   , Token : 102, s>
+<Line : 421, PUNCTUATOR         , Token : 108, ;>
+<Line : 422, Valid IDENTIFIER   , Token : 102, s>
+<Line : 423, PUNCTUATOR         , Token : 108, =>
+<Line : 424, Valid IDENTIFIER   , Token : 102, s>
+<Line : 425, PUNCTUATOR         , Token : 108, *>
+<Line : 426, Valid IDENTIFIER   , Token : 102, s>
+<Line : 427, PUNCTUATOR         , Token : 108, ;>
+<Line : 428, Valid IDENTIFIER   , Token : 102, s>
+<Line : 429, PUNCTUATOR         , Token : 108, =>
+<Line : 430, Valid IDENTIFIER   , Token : 102, s>
+<Line : 431, PUNCTUATOR         , Token : 108, +>
+<Line : 432, INTEGER            , Token : 107, 2>
+<Line : 433, PUNCTUATOR         , Token : 108, ;>
+<Line : 434, Valid IDENTIFIER   , Token : 102, s>
+<Line : 435, PUNCTUATOR         , Token : 108, ++>
+<Line : 436, PUNCTUATOR         , Token : 108, ;>
+<Line : 437, Valid IDENTIFIER   , Token : 102, s>
+<Line : 438, PUNCTUATOR         , Token : 108, -=>
+<Line : 439, INTEGER            , Token : 107, 2>
+<Line : 440, PUNCTUATOR         , Token : 108, ;>
+<Line : 441, Valid IDENTIFIER   , Token : 102, s>
+<Line : 442, PUNCTUATOR         , Token : 108, =>
+<Line : 443, PUNCTUATOR         , Token : 108, !>
+<Line : 444, Valid IDENTIFIER   , Token : 102, s>
+<Line : 445, PUNCTUATOR         , Token : 108, ;>
+<Line : 446, Valid IDENTIFIER   , Token : 102, s>
+<Line : 447, PUNCTUATOR         , Token : 108, =>
+<Line : 448, Valid IDENTIFIER   , Token : 102, s>
+<Line : 449, PUNCTUATOR         , Token : 108, %>
+<Line : 450, INTEGER            , Token : 107, 200>
+<Line : 451, PUNCTUATOR         , Token : 108, ;>
+<Line : 452, C-KEYWORD          , Token : 101, if>
+<Line : 453, PUNCTUATOR         , Token : 108, (>
+<Line : 454, Valid IDENTIFIER   , Token : 102, s>
+<Line : 455, PUNCTUATOR         , Token : 108, >>
+<Line : 456, INTEGER            , Token : 107, 200>
+<Line : 457, PUNCTUATOR         , Token : 108, &&>
+<Line : 458, Valid IDENTIFIER   , Token : 102, s>
+<Line : 459, PUNCTUATOR         , Token : 108, <>
+<Line : 460, INTEGER            , Token : 107, 200>
+<Line : 461, PUNCTUATOR         , Token : 108, &&>
+<Line : 462, Valid IDENTIFIER   , Token : 102, s>
+<Line : 463, PUNCTUATOR         , Token : 108, ==>
+<Line : 464, INTEGER            , Token : 107, 200>
+<Line : 465, PUNCTUATOR         , Token : 108, )>
+<Line : 466, C-KEYWORD          , Token : 101, continue>
+<Line : 467, PUNCTUATOR         , Token : 108, ;>
+<Line : 468, C-KEYWORD          , Token : 101, else>
+<Line : 469, C-KEYWORD          , Token : 101, if>
+<Line : 470, PUNCTUATOR         , Token : 108, (>
+<Line : 471, Valid IDENTIFIER   , Token : 102, s>
+<Line : 472, PUNCTUATOR         , Token : 108, >=>
+<Line : 473, INTEGER            , Token : 107, 200>
+<Line : 474, PUNCTUATOR         , Token : 108, &&>
+<Line : 475, Valid IDENTIFIER   , Token : 102, s>
+<Line : 476, PUNCTUATOR         , Token : 108, <>
+<Line : 477, INTEGER            , Token : 107, 200>
+<Line : 478, PUNCTUATOR         , Token : 108, )>
+<Line : 479, Valid IDENTIFIER   , Token : 102, s>
+<Line : 480, PUNCTUATOR         , Token : 108, +=>
+<Line : 481, INTEGER            , Token : 107, 1>
+<Line : 482, PUNCTUATOR         , Token : 108, ;>
+<Line : 483, Valid IDENTIFIER   , Token : 102, s>
+<Line : 484, PUNCTUATOR         , Token : 108, -=>
+<Line : 485, INTEGER            , Token : 107, 1>
+<Line : 486, PUNCTUATOR         , Token : 108, ;>
+<Line : 487, Valid IDENTIFIER   , Token : 102, s>
+<Line : 488, PUNCTUATOR         , Token : 108, ++>
+<Line : 489, PUNCTUATOR         , Token : 108, ;>
+<Line : 490, Valid IDENTIFIER   , Token : 102, s>
+<Line : 491, PUNCTUATOR         , Token : 108, -->
+<Line : 492, PUNCTUATOR         , Token : 108, ;>
+<Line : 493, C-KEYWORD          , Token : 101, int>
+<Line : 494, Valid IDENTIFIER   , Token : 102, k>
+<Line : 495, PUNCTUATOR         , Token : 108, =>
+<Line : 496, Valid IDENTIFIER   , Token : 102, s>
+<Line : 497, PUNCTUATOR         , Token : 108, >>
+<Line : 498, INTEGER            , Token : 107, 200>
+<Line : 499, PUNCTUATOR         , Token : 108, ?>
+<Line : 500, INTEGER            , Token : 107, 1>
+<Line : 501, PUNCTUATOR         , Token : 108, :>
+<Line : 502, INTEGER            , Token : 107, 0>
+<Line : 503, PUNCTUATOR         , Token : 108, ;>
+<Line : 504, C-KEYWORD          , Token : 101, int>
+<Line : 505, Valid IDENTIFIER   , Token : 102, r>
+<Line : 506, PUNCTUATOR         , Token : 108, *=>
+<Line : 507, INTEGER            , Token : 107, 10>
+<Line : 508, PUNCTUATOR         , Token : 108, ;>
+<Line : 509, PUNCTUATOR         , Token : 108, (>
+<Line : 510, Valid IDENTIFIER   , Token : 102, s>
+<Line : 511, PUNCTUATOR         , Token : 108, /=>
+<Line : 512, INTEGER            , Token : 107, 10>
+<Line : 513, PUNCTUATOR         , Token : 108, )>
+<Line : 514, PUNCTUATOR         , Token : 108, ;>
+<Line : 515, PUNCTUATOR         , Token : 108, (>
+<Line : 516, Valid IDENTIFIER   , Token : 102, s>
+<Line : 517, PUNCTUATOR         , Token : 108, %=>
+<Line : 518, INTEGER            , Token : 107, 10>
+<Line : 519, PUNCTUATOR         , Token : 108, )>
+<Line : 520, PUNCTUATOR         , Token : 108, ;>
+<Line : 521, Valid IDENTIFIER   , Token : 102, s>
+<Line : 522, PUNCTUATOR         , Token : 108, >>=>
+<Line : 523, INTEGER            , Token : 107, 20>
+<Line : 524, PUNCTUATOR         , Token : 108, ;>
+<Line : 525, Valid IDENTIFIER   , Token : 102, s>
+<Line : 526, PUNCTUATOR         , Token : 108, <<=>
+<Line : 527, INTEGER            , Token : 107, 20>
+<Line : 528, PUNCTUATOR         , Token : 108, ;>
+<Line : 529, C-KEYWORD          , Token : 101, int>
+<Line : 530, Valid IDENTIFIER   , Token : 102, w>
+<Line : 531, PUNCTUATOR         , Token : 108, =>
+<Line : 532, Valid IDENTIFIER   , Token : 102, s>
+<Line : 533, PUNCTUATOR         , Token : 108, &>
+<Line : 534, INTEGER            , Token : 107, 1>
+<Line : 535, PUNCTUATOR         , Token : 108, ^>
+<Line : 536, INTEGER            , Token : 107, 100>
+<Line : 537, PUNCTUATOR         , Token : 108, ;>
+<Line : 538, Valid IDENTIFIER   , Token : 102, s>
+<Line : 539, PUNCTUATOR         , Token : 108, &=>
+<Line : 540, INTEGER            , Token : 107, 1>
+<Line : 541, PUNCTUATOR         , Token : 108, ;>
+<Line : 542, Valid IDENTIFIER   , Token : 102, s>
+<Line : 543, PUNCTUATOR         , Token : 108, ^=>
+<Line : 544, INTEGER            , Token : 107, 1>
+<Line : 545, PUNCTUATOR         , Token : 108, ;>
+<Line : 546, C-KEYWORD          , Token : 101, int>
+<Line : 547, Valid IDENTIFIER   , Token : 102, t>
+<Line : 548, PUNCTUATOR         , Token : 108, =>
+<Line : 549, Valid IDENTIFIER   , Token : 102, f1>
+<Line : 550, PUNCTUATOR         , Token : 108, ||>
+<Line : 551, Valid IDENTIFIER   , Token : 102, f2>
+<Line : 552, PUNCTUATOR         , Token : 108, ;>
+<Line : 553, C-KEYWORD          , Token : 101, if>
+<Line : 554, PUNCTUATOR         , Token : 108, (>
+<Line : 555, Valid IDENTIFIER   , Token : 102, s>
+<Line : 556, PUNCTUATOR         , Token : 108, <>
+<Line : 557, INTEGER            , Token : 107, 10>
+<Line : 558, PUNCTUATOR         , Token : 108, &&>
+<Line : 559, Valid IDENTIFIER   , Token : 102, s>
+<Line : 560, PUNCTUATOR         , Token : 108, >>
+<Line : 561, INTEGER            , Token : 107, 0>
+<Line : 562, PUNCTUATOR         , Token : 108, )>
+<Line : 563, C-KEYWORD          , Token : 101, goto>
+<Line : 564, Valid IDENTIFIER   , Token : 102, some_label>
+<Line : 565, PUNCTUATOR         , Token : 108, ;>
+<Line : 566, Valid IDENTIFIER   , Token : 102, some_label>
+<Line : 567, PUNCTUATOR         , Token : 108, :>
+<Line : 568, C-KEYWORD          , Token : 101, continue>
+<Line : 569, PUNCTUATOR         , Token : 108, ;>
+<Line : 570, PUNCTUATOR         , Token : 108, }>
+<Line : 571, C-KEYWORD          , Token : 101, while>
+<Line : 572, PUNCTUATOR         , Token : 108, (>
+<Line : 573, Valid IDENTIFIER   , Token : 102, n2>
+<Line : 574, PUNCTUATOR         , Token : 108, !=>
+<Line : 575, PUNCTUATOR         , Token : 108, ->
+<Line : 576, INTEGER            , Token : 107, 1>
+<Line : 577, PUNCTUATOR         , Token : 108, ||>
+<Line : 578, PUNCTUATOR         , Token : 108, !>
+<Line : 579, Valid IDENTIFIER   , Token : 102, n1>
+<Line : 580, PUNCTUATOR         , Token : 108, )>
+<Line : 581, PUNCTUATOR         , Token : 108, ;>
+<Line : 582, C-KEYWORD          , Token : 101, goto>
+<Line : 583, Valid IDENTIFIER   , Token : 102, studentLabel>
+<Line : 584, PUNCTUATOR         , Token : 108, ;>
+<Line : 585, Valid IDENTIFIER   , Token : 102, newLabel>
+<Line : 586, PUNCTUATOR         , Token : 108, :>
+<Line : 587, Valid IDENTIFIER   , Token : 102, stud>
+<Line : 588, Valid IDENTIFIER   , Token : 102, student1>
+<Line : 589, PUNCTUATOR         , Token : 108, ,>
+<Line : 590, Valid IDENTIFIER   , Token : 102, student2>
+<Line : 591, PUNCTUATOR         , Token : 108, ;>
+<Line : 592, Valid IDENTIFIER   , Token : 102, student1>
+<Line : 593, PUNCTUATOR         , Token : 108, .>
+<Line : 594, Valid IDENTIFIER   , Token : 102, name>
+<Line : 595, PUNCTUATOR         , Token : 108, =>
+<Line : 596, STRING  Literal    , Token : 103, "teddy123">
+<Line : 597, PUNCTUATOR         , Token : 108, ;>
+<Line : 598, Valid IDENTIFIER   , Token : 102, student1>
+<Line : 599, PUNCTUATOR         , Token : 108, .>
+<Line : 600, Valid IDENTIFIER   , Token : 102, rollNo>
+<Line : 601, PUNCTUATOR         , Token : 108, =>
+<Line : 602, INTEGER            , Token : 107, 23>
+<Line : 603, PUNCTUATOR         , Token : 108, ;>
+<Line : 604, Valid IDENTIFIER   , Token : 102, student1>
+<Line : 605, PUNCTUATOR         , Token : 108, .>
+<Line : 606, Valid IDENTIFIER   , Token : 102, gpa>
+<Line : 607, PUNCTUATOR         , Token : 108, =>
+<Line : 608,   FLOAT            , Token : 104, 9.4>
+<Line : 609, PUNCTUATOR         , Token : 108, ;>
+<Line : 610, Valid IDENTIFIER   , Token : 102, student2>
+<Line : 611, PUNCTUATOR         , Token : 108, .>
+<Line : 612, Valid IDENTIFIER   , Token : 102, name>
+<Line : 613, PUNCTUATOR         , Token : 108, =>
+<Line : 614, STRING  Literal    , Token : 103, "name123">
+<Line : 615, PUNCTUATOR         , Token : 108, ;>
+<Line : 616, Valid IDENTIFIER   , Token : 102, student2>
+<Line : 617, PUNCTUATOR         , Token : 108, .>
+<Line : 618, Valid IDENTIFIER   , Token : 102, rollNo>
+<Line : 619, PUNCTUATOR         , Token : 108, =>
+<Line : 620, INTEGER            , Token : 107, 27>
+<Line : 621, PUNCTUATOR         , Token : 108, ;>
+<Line : 622, Valid IDENTIFIER   , Token : 102, student2>
+<Line : 623, PUNCTUATOR         , Token : 108, .>
+<Line : 624, Valid IDENTIFIER   , Token : 102, gpa>
+<Line : 625, PUNCTUATOR         , Token : 108, =>
+<Line : 626,   FLOAT            , Token : 104, 9.5>
+<Line : 627, PUNCTUATOR         , Token : 108, ;>
+<Line : 628, C-KEYWORD          , Token : 101, return>
+<Line : 629, INTEGER            , Token : 107, 0>
+<Line : 630, PUNCTUATOR         , Token : 108, ;>
+<Line : 631, PUNCTUATOR         , Token : 108, }>
