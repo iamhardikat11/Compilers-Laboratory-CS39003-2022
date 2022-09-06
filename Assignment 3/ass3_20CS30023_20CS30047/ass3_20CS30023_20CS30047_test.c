@@ -6,7 +6,7 @@
  */
 #include <stdio.h>
 #include <stdlib.h>
-// #include <conio.h>
+#include <conio.h>
 
 #define NUMBER 1234
 #define MOD 1e9 + 7
@@ -92,13 +92,13 @@ int main()
     char *h = "Hello  welcome to this program .\n";
     *ch1 = "This is a String !! /* Hello This is our Team.*/ Not even multi-line comments will be read here.\n";
     
-    student student1, student2;
-    student1.name = "teddy123";
-    student1.rollNo = 23;
-    student1.gpa = 9.4;
-    student2.name = "name123";
-    student2.rollNo = 27;
-    student2.gpa = 9.5;
+    student stud1, stud2;
+    stud1.name = "teddy123";
+    stud1.rollNo = 23;
+    stud1.gpa = 9.4;
+    stud2.name = "name123";
+    stud2.rollNo = 27;
+    stud2.gpa = 9.5;
     do
     {
         s << 2;
@@ -137,6 +137,5 @@ int main()
     goto studentLabel;
     studentLabel:
         printf("Student End\n");
-        
     return 0;
 }

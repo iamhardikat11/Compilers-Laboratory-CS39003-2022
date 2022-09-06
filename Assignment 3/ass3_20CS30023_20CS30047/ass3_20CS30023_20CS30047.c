@@ -1,3 +1,9 @@
+/*
+ *   Compilers Labortary
+ *   Compilers Assignment 3
+ *   Hardik Pravin Soni - 20CS30023
+ *   Saurabh Jaiswal - 20CS30047
+ */
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
